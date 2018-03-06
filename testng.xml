@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sample">
+    <test name="verify verison and login">
+        <parameter name="uname" value="admin"/>
+        <parameter name="pwd" value="manager"></parameter>
+        <classes>
+            <class name="ScenarioComponent.Adminlogin"/>
+            <method name="login">
+            </method>>
+        </classes>
+    </test>
+</suite>
